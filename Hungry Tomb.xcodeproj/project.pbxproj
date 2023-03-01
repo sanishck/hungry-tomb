@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BCDDC129AF1CA500FDAE95 /* Hungry_TombApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDC029AF1CA500FDAE95 /* Hungry_TombApp.swift */; };
+		D0BCDDC329AF1CA500FDAE95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDC229AF1CA500FDAE95 /* ContentView.swift */; };
+		D0BCDDC529AF1CA900FDAE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BCDDC429AF1CA900FDAE95 /* Assets.xcassets */; };
+		D0BCDDC829AF1CA900FDAE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BCDDC729AF1CA900FDAE95 /* Preview Assets.xcassets */; };
+		D0BCDDCA29AF1CA900FDAE95 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDC929AF1CA900FDAE95 /* Persistence.swift */; };
+		D0BCDDCD29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDCB29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld */; };
+		D0BCDDD729AF1CAA00FDAE95 /* Hungry_TombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDD629AF1CAA00FDAE95 /* Hungry_TombTests.swift */; };
+		D0BCDDE129AF1CAA00FDAE95 /* Hungry_TombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDE029AF1CAA00FDAE95 /* Hungry_TombUITests.swift */; };
+		D0BCDDE329AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BCDDD329AF1CAA00FDAE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BCDDB529AF1CA500FDAE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BCDDBC29AF1CA500FDAE95;
+			remoteInfo = "Hungry Tomb";
+		};
+		D0BCDDDD29AF1CAA00FDAE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BCDDB529AF1CA500FDAE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BCDDBC29AF1CA500FDAE95;
+			remoteInfo = "Hungry Tomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0BCDDBD29AF1CA500FDAE95 /* Hungry Tomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Tomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCDDC029AF1CA500FDAE95 /* Hungry_TombApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombApp.swift; sourceTree = "<group>"; };
+		D0BCDDC229AF1CA500FDAE95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0BCDDC429AF1CA900FDAE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BCDDC729AF1CA900FDAE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0BCDDC929AF1CA900FDAE95 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D0BCDDCC29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hungry_Tomb.xcdatamodel; sourceTree = "<group>"; };
+		D0BCDDD229AF1CAA00FDAE95 /* Hungry TombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry TombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCDDD629AF1CAA00FDAE95 /* Hungry_TombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombTests.swift; sourceTree = "<group>"; };
+		D0BCDDDC29AF1CAA00FDAE95 /* Hungry TombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry TombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCDDE029AF1CAA00FDAE95 /* Hungry_TombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombUITests.swift; sourceTree = "<group>"; };
+		D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BCDDBA29AF1CA500FDAE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDCF29AF1CAA00FDAE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDD929AF1CAA00FDAE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BCDDB429AF1CA500FDAE95 = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDBF29AF1CA500FDAE95 /* Hungry Tomb */,
+				D0BCDDD529AF1CAA00FDAE95 /* Hungry TombTests */,
+				D0BCDDDF29AF1CAA00FDAE95 /* Hungry TombUITests */,
+				D0BCDDBE29AF1CA500FDAE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BCDDBE29AF1CA500FDAE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDBD29AF1CA500FDAE95 /* Hungry Tomb.app */,
+				D0BCDDD229AF1CAA00FDAE95 /* Hungry TombTests.xctest */,
+				D0BCDDDC29AF1CAA00FDAE95 /* Hungry TombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BCDDBF29AF1CA500FDAE95 /* Hungry Tomb */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDC029AF1CA500FDAE95 /* Hungry_TombApp.swift */,
+				D0BCDDC229AF1CA500FDAE95 /* ContentView.swift */,
+				D0BCDDC429AF1CA900FDAE95 /* Assets.xcassets */,
+				D0BCDDC929AF1CA900FDAE95 /* Persistence.swift */,
+				D0BCDDCB29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld */,
+				D0BCDDC629AF1CA900FDAE95 /* Preview Content */,
+			);
+			path = "Hungry Tomb";
+			sourceTree = "<group>";
+		};
+		D0BCDDC629AF1CA900FDAE95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDC729AF1CA900FDAE95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0BCDDD529AF1CAA00FDAE95 /* Hungry TombTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDD629AF1CAA00FDAE95 /* Hungry_TombTests.swift */,
+			);
+			path = "Hungry TombTests";
+			sourceTree = "<group>";
+		};
+		D0BCDDDF29AF1CAA00FDAE95 /* Hungry TombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDE029AF1CAA00FDAE95 /* Hungry_TombUITests.swift */,
+				D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */,
+			);
+			path = "Hungry TombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BCDDBC29AF1CA500FDAE95 /* Hungry Tomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCDDE629AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry Tomb" */;
+			buildPhases = (
+				D0BCDDB929AF1CA500FDAE95 /* Sources */,
+				D0BCDDBA29AF1CA500FDAE95 /* Frameworks */,
+				D0BCDDBB29AF1CA500FDAE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hungry Tomb";
+			productName = "Hungry Tomb";
+			productReference = D0BCDDBD29AF1CA500FDAE95 /* Hungry Tomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BCDDD129AF1CAA00FDAE95 /* Hungry TombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCDDE929AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry TombTests" */;
+			buildPhases = (
+				D0BCDDCE29AF1CAA00FDAE95 /* Sources */,
+				D0BCDDCF29AF1CAA00FDAE95 /* Frameworks */,
+				D0BCDDD029AF1CAA00FDAE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BCDDD429AF1CAA00FDAE95 /* PBXTargetDependency */,
+			);
+			name = "Hungry TombTests";
+			productName = "Hungry TombTests";
+			productReference = D0BCDDD229AF1CAA00FDAE95 /* Hungry TombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BCDDDB29AF1CAA00FDAE95 /* Hungry TombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCDDEC29AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry TombUITests" */;
+			buildPhases = (
+				D0BCDDD829AF1CAA00FDAE95 /* Sources */,
+				D0BCDDD929AF1CAA00FDAE95 /* Frameworks */,
+				D0BCDDDA29AF1CAA00FDAE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BCDDDE29AF1CAA00FDAE95 /* PBXTargetDependency */,
+			);
+			name = "Hungry TombUITests";
+			productName = "Hungry TombUITests";
+			productReference = D0BCDDDC29AF1CAA00FDAE95 /* Hungry TombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BCDDB529AF1CA500FDAE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D0BCDDBC29AF1CA500FDAE95 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D0BCDDD129AF1CAA00FDAE95 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D0BCDDBC29AF1CA500FDAE95;
+					};
+					D0BCDDDB29AF1CAA00FDAE95 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D0BCDDBC29AF1CA500FDAE95;
+					};
+				};
+			};
+			buildConfigurationList = D0BCDDB829AF1CA500FDAE95 /* Build configuration list for PBXProject "Hungry Tomb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BCDDB429AF1CA500FDAE95;
+			productRefGroup = D0BCDDBE29AF1CA500FDAE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BCDDBC29AF1CA500FDAE95 /* Hungry Tomb */,
+				D0BCDDD129AF1CAA00FDAE95 /* Hungry TombTests */,
+				D0BCDDDB29AF1CAA00FDAE95 /* Hungry TombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BCDDBB29AF1CA500FDAE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCDDC829AF1CA900FDAE95 /* Preview Assets.xcassets in Resources */,
+				D0BCDDC529AF1CA900FDAE95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDD029AF1CAA00FDAE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDDA29AF1CAA00FDAE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BCDDB929AF1CA500FDAE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCDDCA29AF1CA900FDAE95 /* Persistence.swift in Sources */,
+				D0BCDDC329AF1CA500FDAE95 /* ContentView.swift in Sources */,
+				D0BCDDCD29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld in Sources */,
+				D0BCDDC129AF1CA500FDAE95 /* Hungry_TombApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDCE29AF1CAA00FDAE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCDDD729AF1CAA00FDAE95 /* Hungry_TombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BCDDD829AF1CAA00FDAE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCDDE129AF1CAA00FDAE95 /* Hungry_TombUITests.swift in Sources */,
+				D0BCDDE329AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BCDDD429AF1CAA00FDAE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BCDDBC29AF1CA500FDAE95 /* Hungry Tomb */;
+			targetProxy = D0BCDDD329AF1CAA00FDAE95 /* PBXContainerItemProxy */;
+		};
+		D0BCDDDE29AF1CAA00FDAE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BCDDBC29AF1CA500FDAE95 /* Hungry Tomb */;
+			targetProxy = D0BCDDDD29AF1CAA00FDAE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0BCDDE429AF1CAA00FDAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BCDDE529AF1CAA00FDAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BCDDE729AF1CAA00FDAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hungry Tomb/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-Tomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BCDDE829AF1CAA00FDAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hungry Tomb/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-Tomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0BCDDEA29AF1CAA00FDAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-TombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Tomb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hungry Tomb";
+			};
+			name = Debug;
+		};
+		D0BCDDEB29AF1CAA00FDAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-TombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hungry Tomb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hungry Tomb";
+			};
+			name = Release;
+		};
+		D0BCDDED29AF1CAA00FDAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-TombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hungry Tomb";
+			};
+			name = Debug;
+		};
+		D0BCDDEE29AF1CAA00FDAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NC3GGHD83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.elum.Hungry-TombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hungry Tomb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BCDDB829AF1CA500FDAE95 /* Build configuration list for PBXProject "Hungry Tomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCDDE429AF1CAA00FDAE95 /* Debug */,
+				D0BCDDE529AF1CAA00FDAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCDDE629AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry Tomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCDDE729AF1CAA00FDAE95 /* Debug */,
+				D0BCDDE829AF1CAA00FDAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCDDE929AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry TombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCDDEA29AF1CAA00FDAE95 /* Debug */,
+				D0BCDDEB29AF1CAA00FDAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BCDDEC29AF1CAA00FDAE95 /* Build configuration list for PBXNativeTarget "Hungry TombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCDDED29AF1CAA00FDAE95 /* Debug */,
+				D0BCDDEE29AF1CAA00FDAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0BCDDCB29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0BCDDCC29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodel */,
+			);
+			currentVersion = D0BCDDCC29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodel */;
+			path = Hungry_Tomb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0BCDDB529AF1CA500FDAE95 /* Project object */;
+}
