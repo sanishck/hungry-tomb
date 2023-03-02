@@ -16,6 +16,27 @@
 		D0BCDDD729AF1CAA00FDAE95 /* Hungry_TombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDD629AF1CAA00FDAE95 /* Hungry_TombTests.swift */; };
 		D0BCDDE129AF1CAA00FDAE95 /* Hungry_TombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDE029AF1CAA00FDAE95 /* Hungry_TombUITests.swift */; };
 		D0BCDDE329AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */; };
+		D0BCDDF929AF1E5900FDAE95 /* TrendDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDF529AF1E5800FDAE95 /* TrendDishes.swift */; };
+		D0BCDDFA29AF1E5900FDAE95 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDF629AF1E5800FDAE95 /* SectionTitleView.swift */; };
+		D0BCDDFB29AF1E5900FDAE95 /* HomeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDF729AF1E5800FDAE95 /* HomeNavBarView.swift */; };
+		D0BCDDFC29AF1E5900FDAE95 /* SearchAndFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDF829AF1E5900FDAE95 /* SearchAndFilterView.swift */; };
+		D0BCDDFE29AF1E7500FDAE95 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDFD29AF1E7500FDAE95 /* Meal.swift */; };
+		D0BCDE0029AF1E8D00FDAE95 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDDFF29AF1E8D00FDAE95 /* OnBoardingView.swift */; };
+		D0BCDE0229AF1E9B00FDAE95 /* CheckOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCDE0129AF1E9B00FDAE95 /* CheckOut.swift */; };
+		D0CC42A829AF744900D9A030 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42A729AF744900D9A030 /* NavBar.swift */; };
+		D0CC42AA29AF745900D9A030 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42A929AF745900D9A030 /* Card.swift */; };
+		D0CC42AC29AF745E00D9A030 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42AB29AF745E00D9A030 /* OnBoardingPage.swift */; };
+		D0CC42B829AF77D900D9A030 /* TrendingWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42B029AF77D800D9A030 /* TrendingWeek.swift */; };
+		D0CC42BB29AF77D900D9A030 /* OurPicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42B329AF77D800D9A030 /* OurPicks.swift */; };
+		D0CC42BF29AF7C0300D9A030 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42BE29AF7C0300D9A030 /* HomeView.swift */; };
+		D0CC42C129AF895900D9A030 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42C029AF895900D9A030 /* CategoryView.swift */; };
+		D0CC42C329AF8C1A00D9A030 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42C229AF8C1A00D9A030 /* PickView.swift */; };
+		D0CC42C529AF931800D9A030 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42C429AF931800D9A030 /* CartItemView.swift */; };
+		D0CC42C729AF9D2900D9A030 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42C629AF9D2900D9A030 /* Store.swift */; };
+		D0CC42CB29AF9D7B00D9A030 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42CA29AF9D7B00D9A030 /* CategoryViewModel.swift */; };
+		D0CC42CF29AFA1B800D9A030 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42CE29AFA1B800D9A030 /* Category.swift */; };
+		D0CC42D229AFA26600D9A030 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42D129AFA26600D9A030 /* AppConstant.swift */; };
+		D0CC42D529AFA5BB00D9A030 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC42D429AFA5BB00D9A030 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +69,27 @@
 		D0BCDDDC29AF1CAA00FDAE95 /* Hungry TombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hungry TombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BCDDE029AF1CAA00FDAE95 /* Hungry_TombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombUITests.swift; sourceTree = "<group>"; };
 		D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hungry_TombUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0BCDDF529AF1E5800FDAE95 /* TrendDishes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendDishes.swift; sourceTree = "<group>"; };
+		D0BCDDF629AF1E5800FDAE95 /* SectionTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		D0BCDDF729AF1E5800FDAE95 /* HomeNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavBarView.swift; sourceTree = "<group>"; };
+		D0BCDDF829AF1E5900FDAE95 /* SearchAndFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAndFilterView.swift; sourceTree = "<group>"; };
+		D0BCDDFD29AF1E7500FDAE95 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D0BCDDFF29AF1E8D00FDAE95 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		D0BCDE0129AF1E9B00FDAE95 /* CheckOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOut.swift; sourceTree = "<group>"; };
+		D0CC42A729AF744900D9A030 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		D0CC42A929AF745900D9A030 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D0CC42AB29AF745E00D9A030 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		D0CC42B029AF77D800D9A030 /* TrendingWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingWeek.swift; sourceTree = "<group>"; };
+		D0CC42B329AF77D800D9A030 /* OurPicks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurPicks.swift; sourceTree = "<group>"; };
+		D0CC42BE29AF7C0300D9A030 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0CC42C029AF895900D9A030 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		D0CC42C229AF8C1A00D9A030 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
+		D0CC42C429AF931800D9A030 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		D0CC42C629AF9D2900D9A030 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D0CC42CA29AF9D7B00D9A030 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		D0CC42CE29AFA1B800D9A030 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D0CC42D129AFA26600D9A030 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		D0CC42D429AFA5BB00D9A030 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +142,27 @@
 			children = (
 				D0BCDDC029AF1CA500FDAE95 /* Hungry_TombApp.swift */,
 				D0BCDDC229AF1CA500FDAE95 /* ContentView.swift */,
+				D0CC42D029AFA24F00D9A030 /* AppConstant */,
+				D0CC42CD29AF9D9F00D9A030 /* View */,
+				D0CC42CC29AF9D9200D9A030 /* ViewModel */,
+				D0CC42AD29AF750D00D9A030 /* Modal */,
+				D0CC42A729AF744900D9A030 /* NavBar.swift */,
+				D0CC42BE29AF7C0300D9A030 /* HomeView.swift */,
+				D0BCDDF529AF1E5800FDAE95 /* TrendDishes.swift */,
+				D0CC42B329AF77D800D9A030 /* OurPicks.swift */,
+				D0CC42B029AF77D800D9A030 /* TrendingWeek.swift */,
+				D0BCDDF729AF1E5800FDAE95 /* HomeNavBarView.swift */,
+				D0BCDDF829AF1E5900FDAE95 /* SearchAndFilterView.swift */,
+				D0BCDDFD29AF1E7500FDAE95 /* Meal.swift */,
+				D0BCDDF629AF1E5800FDAE95 /* SectionTitleView.swift */,
+				D0BCDE0129AF1E9B00FDAE95 /* CheckOut.swift */,
 				D0BCDDC429AF1CA900FDAE95 /* Assets.xcassets */,
 				D0BCDDC929AF1CA900FDAE95 /* Persistence.swift */,
 				D0BCDDCB29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld */,
 				D0BCDDC629AF1CA900FDAE95 /* Preview Content */,
+				D0CC42C029AF895900D9A030 /* CategoryView.swift */,
+				D0CC42C229AF8C1A00D9A030 /* PickView.swift */,
+				D0CC42C429AF931800D9A030 /* CartItemView.swift */,
 			);
 			path = "Hungry Tomb";
 			sourceTree = "<group>";
@@ -131,6 +190,50 @@
 				D0BCDDE229AF1CAA00FDAE95 /* Hungry_TombUITestsLaunchTests.swift */,
 			);
 			path = "Hungry TombUITests";
+			sourceTree = "<group>";
+		};
+		D0CC42AD29AF750D00D9A030 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC42C629AF9D2900D9A030 /* Store.swift */,
+				D0CC42A929AF745900D9A030 /* Card.swift */,
+				D0CC42AB29AF745E00D9A030 /* OnBoardingPage.swift */,
+				D0CC42CE29AFA1B800D9A030 /* Category.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		D0CC42CC29AF9D9200D9A030 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC42CA29AF9D7B00D9A030 /* CategoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0CC42CD29AF9D9F00D9A030 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC42D329AFA59E00D9A030 /* OnBoarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0CC42D029AFA24F00D9A030 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC42D129AFA26600D9A030 /* AppConstant.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		D0CC42D329AFA59E00D9A030 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCDDFF29AF1E8D00FDAE95 /* OnBoardingView.swift */,
+				D0CC42D429AFA5BB00D9A030 /* Location.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +367,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BCDDCA29AF1CA900FDAE95 /* Persistence.swift in Sources */,
+				D0CC42BB29AF77D900D9A030 /* OurPicks.swift in Sources */,
+				D0CC42A829AF744900D9A030 /* NavBar.swift in Sources */,
+				D0CC42C329AF8C1A00D9A030 /* PickView.swift in Sources */,
+				D0BCDDFB29AF1E5900FDAE95 /* HomeNavBarView.swift in Sources */,
+				D0CC42C729AF9D2900D9A030 /* Store.swift in Sources */,
+				D0BCDDFC29AF1E5900FDAE95 /* SearchAndFilterView.swift in Sources */,
+				D0BCDDFE29AF1E7500FDAE95 /* Meal.swift in Sources */,
+				D0CC42AA29AF745900D9A030 /* Card.swift in Sources */,
 				D0BCDDC329AF1CA500FDAE95 /* ContentView.swift in Sources */,
+				D0BCDE0029AF1E8D00FDAE95 /* OnBoardingView.swift in Sources */,
 				D0BCDDCD29AF1CA900FDAE95 /* Hungry_Tomb.xcdatamodeld in Sources */,
+				D0CC42C529AF931800D9A030 /* CartItemView.swift in Sources */,
+				D0CC42D529AFA5BB00D9A030 /* Location.swift in Sources */,
+				D0CC42B829AF77D900D9A030 /* TrendingWeek.swift in Sources */,
+				D0CC42CF29AFA1B800D9A030 /* Category.swift in Sources */,
+				D0CC42D229AFA26600D9A030 /* AppConstant.swift in Sources */,
+				D0BCDDFA29AF1E5900FDAE95 /* SectionTitleView.swift in Sources */,
+				D0CC42AC29AF745E00D9A030 /* OnBoardingPage.swift in Sources */,
+				D0CC42C129AF895900D9A030 /* CategoryView.swift in Sources */,
 				D0BCDDC129AF1CA500FDAE95 /* Hungry_TombApp.swift in Sources */,
+				D0BCDE0229AF1E9B00FDAE95 /* CheckOut.swift in Sources */,
+				D0BCDDF929AF1E5900FDAE95 /* TrendDishes.swift in Sources */,
+				D0CC42CB29AF9D7B00D9A030 /* CategoryViewModel.swift in Sources */,
+				D0CC42BF29AF7C0300D9A030 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
